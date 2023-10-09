@@ -1,0 +1,26 @@
+<section class="banner" id="sec">
+  <header>
+      <a href="#" class="logo">Clot Strabe</a>
+      <div id="toggle" (click)="menu()"></div>
+  </header>
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <router-outlet></router-outlet>
+
+  <!-- REDES SOCIALES -->
+  <ul class="sci">
+      <li><a href="https://www.facebook.com/clot.strabe/"><img src="assets/images/facebook.png"/></a></li>
+      <li><a href="https://www.instagram.com/clot.strabe/"><img src="assets/images/instagram.png"/></a></li>
+      <li><a href="https://www.linkedin.com/in/clot.strabe/"><img src="assets/images/linkedin.png"/></a></li>
+  </ul>
+</section>
+
+<!-- MENU -->
+<div id="navigation">
+  <ul>
+      <li><a [routerLink] = "['/']" (click)="menu()">Inicio</a></li>
+      <li><a [routerLink] = "['about']" (click)="menu()">Acerca de</a></li>
+      <li><a [routerLink] = "['portfolio']" (click)="menu()">Portafolio</a></li>
+      <li><a [routerLink] = "['contact']" (click)="menu()">Contacto</a></li>
+  </ul>
+</div>

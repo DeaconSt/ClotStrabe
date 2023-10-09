@@ -1,0 +1,9 @@
+body {
+    height: 800px;
+    background-image: url("https://ramenparados.com/wp-content/uploads/2019/09/kimetsu-no-Yaiba-1000x600.jpg");
+    background-size: cover;
+    background-size: 25rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+  }
